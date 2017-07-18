@@ -3,7 +3,6 @@ package onlinerSearch;
 import org.junit.Test;
 
 public class Solution extends FunctionalTest {
-	
 	@Test
 	public void signUp() {
 
