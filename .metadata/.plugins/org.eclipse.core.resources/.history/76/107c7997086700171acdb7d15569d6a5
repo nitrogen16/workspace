@@ -1,0 +1,11 @@
+package cashingProxy.retrievers;
+
+public class CachingProxyRetriever implements Retriever{
+
+	@Override
+	public Object retrieve(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package strategy;
+
+import java.nio.file.Path;
+
+public class FileBucket {
+	Path path;
+	
+	public FileBucket(){
+		
+	}
+}

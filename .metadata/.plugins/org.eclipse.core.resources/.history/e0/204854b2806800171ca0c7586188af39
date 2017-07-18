@@ -1,0 +1,33 @@
+package onlinerSearch;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class OnlinerCatalogPage extends PageObject{
+    @FindBy(css = "[@class='catalog-bar']/ul")
+    private WebElement mainNavigationPanel;
+    
+	public OnlinerCatalogPage(WebDriver driver) {
+		super(driver);
+	}
+	
+    public void getElements() {
+        List<WebElement> list = driver.findElements(By.cssSelector("mainNavigationPanel"));
+        													   //.//*[@id='container']/div/div[2]/div/div/div[2]/div[1]/div/ul	
+        		//(By.xpath(".//*[@class='catalog-bar']/ul"));
+        for(WebElement item : list){
+        	System.out.println(item.getText());
+        }
+    }
+    
+	public OnlinerForumPage clickOnForumPage() {
+		getElements();
+		driver.get("http:\\forum.onliner.by");
+		return new OnlinerForumPage(driver);
+	}
+	
+}

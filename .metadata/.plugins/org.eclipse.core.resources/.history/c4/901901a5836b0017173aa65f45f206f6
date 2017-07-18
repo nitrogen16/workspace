@@ -1,0 +1,5 @@
+package strategy;
+
+public class Entry implements Serializable{
+	
+}

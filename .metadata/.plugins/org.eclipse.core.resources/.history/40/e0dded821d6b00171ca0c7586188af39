@@ -1,0 +1,46 @@
+package strategy;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapStorageStrategy implements StorageStrategy{
+
+	private HashMap<Long, String> data;
+	
+	@Override
+	public boolean containsKey(Long key) {
+		for(Map.Entry pairs : data.entrySet()){
+			if(pairs.getKey() == key){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		return false;
+	}
+
+	@Override
+	public boolean containsValue(String value) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void put(Long key, String value) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Long getKey(String value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getValue(Long key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

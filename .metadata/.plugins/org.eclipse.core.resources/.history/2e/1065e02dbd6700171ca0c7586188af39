@@ -1,0 +1,32 @@
+package onlinerSearch;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class OnlinerForumPage extends PageObject{
+    
+	public OnlinerForumPage(WebDriver driver) {
+		super(driver);
+	}
+
+    public void getElements() {
+    	
+    	driver.findElement(By.className("fast-search__input")).sendKeys("life");
+    	new WebDriverWait(driver, 30).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//iframe[@class='modal-iframe']")));
+    	
+    	List<WebElement> list = driver.findElements(By.xpath(".//*[@id='search-page']/div[2]/ul/li[i]"));
+        System.out.println(list.size());
+        System.out.println(list);
+    	for(WebElement item : list){
+        	System.out.println(item.getText());
+        }
+    	
+    	//new WebDriverWait(driver, 30).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//iframe[@class='modal-iframe']")));
+    }
+}
+//li[1]/div/div/div

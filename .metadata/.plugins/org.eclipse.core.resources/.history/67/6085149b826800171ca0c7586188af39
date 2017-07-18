@@ -1,0 +1,24 @@
+package onlinerSearch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class OnlinerMainPage extends PageObject{
+	@FindBy(css = "input[type=\"submit\"]")
+    private WebElement searchButton;
+    
+	public OnlinerMainPage(WebDriver driver) {
+		super(driver);
+	}
+
+	public OnlinerMainPage open() {
+		driver.get("http:\\onliner.by");
+		return this;
+	}
+
+	public OnlinerCatalogPage clickOnCatalog() {
+		driver.get("http:\\catalog.onliner.by");
+		return new OnlinerCatalogPage(driver);
+	}
+}

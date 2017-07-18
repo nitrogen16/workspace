@@ -1,0 +1,33 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class App {
+
+	public static void main(String[] args) {
+		App gui = new App();
+		gui.go();
+	}
+
+	public void go(){
+		JFrame frame = new JFrame();
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.DARK_GRAY);
+		
+		JButton button1 = new JButton("SHOCK ME");
+		JButton button2 = new JButton("BLISS");
+		panel.add(button1);
+		panel.add(button2);
+		
+		frame.getContentPane().add(BorderLayout.EAST, panel);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		frame.setSize(250, 200);
+		frame.setVisible(true);
+	}
+
+}

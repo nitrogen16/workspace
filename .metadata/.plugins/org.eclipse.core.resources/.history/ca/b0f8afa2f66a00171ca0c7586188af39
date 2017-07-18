@@ -1,0 +1,20 @@
+package main;
+
+import java.util.AbstractSet;
+import java.util.Iterator;
+
+public class AmigoSet extends AbstractSet{
+
+	@Override
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

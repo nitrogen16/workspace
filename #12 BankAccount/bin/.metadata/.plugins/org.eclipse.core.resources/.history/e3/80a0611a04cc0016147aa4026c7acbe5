@@ -1,0 +1,62 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+class DungeonGame implements Serializable{
+	public int x = 3;
+	transient long y = 4;
+	private short z =5;
+	
+	
+	public int getX() {
+		return x;
+	}
+
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+
+	public long getY() {
+		return y;
+	}
+
+
+	public void setY(long y) {
+		this.y = y;
+	}
+
+
+	public short getZ() {
+		return z;
+	}
+
+
+	public void setZ(short z) {
+		this.z = z;
+	}
+
+
+	public static void main(String[] args) {
+		DungeonGame d = new DungeonGame();
+		System.out.println(d.getX() + d.getY() + d.getZ());
+		
+		try {
+			FileOutputStream fos = new FileOutputStream ("dg.ser");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+}
+	
+	
+}

@@ -1,0 +1,16 @@
+package onlinerSearch;
+
+import org.junit.Test;
+
+public class Solution extends FunctionalTest{
+	@Test
+	public void signUp() {
+		
+		OnlinerMainPage onlinerMainPage = new OnlinerMainPage(driver);
+		onlinerMainPage.clickOnMainPage();
+		onlinerMainPage.getElements();
+		
+		OnlinerForumPage onlinerForumPage = new OnlinerForumPage(driver);
+		onlinerForumPage.getElements();
+	}
+}

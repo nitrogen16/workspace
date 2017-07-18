@@ -1,0 +1,16 @@
+package main;
+
+public class Bomb extends BaseObject {
+
+	public Bomb(double x, double y) {
+		super(x, y, 1);
+	}
+	
+	public void move(){
+		
+	}
+	
+	public void draw(Canvas canvas){
+		
+	}
+}

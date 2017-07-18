@@ -1,0 +1,15 @@
+package factoryExceptions;
+
+/* 
+Фабрика исключений
+*/
+
+public class Solution {
+    public static Class getFactoryClass() {
+        return null;
+    }
+
+    public static void main(String[] args) {
+
+    }
+}

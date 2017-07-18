@@ -1,0 +1,61 @@
+
+public class Switch {
+
+	public static void main(String[] args) {
+	
+			//While
+		int i=0;
+		while (i<5){
+					System.out.println("i= "+i);
+					i++;
+					}
+		
+		
+			// Do While
+		int a=55;
+		do {
+			System.out.println("a= "+a);
+			a++;
+		}
+		while (a>65);
+		
+		
+		// For
+		for (int d=15; d<20; d++){
+								System.out.println("d= "+d);
+		}
+		
+		
+		
+		// For in For
+				for (int iterator=55; iterator<60; iterator++){
+										System.out.println("iterator= "+iterator);
+										
+					for (int subiterator=2015; subiterator<2025; subiterator++){
+							System.out.println("   subiterator= "+subiterator);
+																	}
+				}
+					
+					
+		// Several iterators
+		
+		for (int q=5, w=10; q<10; q++, w+=5){
+								System.out.println("q="+ q +" and w="+ w);
+											}
+										
+		
+		// For Each, For In
+		String myArray[]={"one", "two", "three"};
+				for (String h : myArray){
+								System.out.println("h = "+h);
+										};
+										
+										
+		// For
+		for (int m=0; m<10; m++){
+							System.out.println("m = "+m);
+							if (m<8) break;
+								}
+	}
+
+}

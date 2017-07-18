@@ -1,0 +1,4 @@
+public class QuizCard(q, a){
+	private String question;
+	private String answer;
+}

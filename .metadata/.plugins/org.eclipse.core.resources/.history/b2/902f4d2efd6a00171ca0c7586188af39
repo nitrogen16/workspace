@@ -1,0 +1,8 @@
+
+public class Shortener {
+	
+	public Long getId(String string){
+		
+	}
+
+}

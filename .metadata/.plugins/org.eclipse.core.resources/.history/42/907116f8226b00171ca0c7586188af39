@@ -1,0 +1,29 @@
+package main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import strategy.StorageStrategy;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static Set<Long> getIds(Shortener shortener, Set<String> strings){
+		Set<Long> set = new HashSet<Long>();
+		
+		return null;
+	}
+	
+	public static Set<String> getStrings(Shortener shortener, Set<Long> keys){
+		return null;
+		
+	}
+	
+	public static testStrategy(StorageStrategy strategy, long elementsNumber){
+		return null;
+	}
+}

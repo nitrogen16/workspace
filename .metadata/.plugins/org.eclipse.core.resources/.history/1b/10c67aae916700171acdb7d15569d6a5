@@ -1,0 +1,32 @@
+package onlinerSearch;
+
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+
+import com.google.common.base.Function;
+
+public class OnlinerMainPage extends PageObject{
+    
+	public OnlinerMainPage(WebDriver driver) {
+		super(driver);
+	}
+
+    public void getElements() {
+        List<WebElement> list = driver.findElements(By.xpath(".//*[@id='container']/div/div[2]/div/div/div[1]/div/div[1]/ul/li[1]/a/span/span"));
+        for(WebElement item : list){
+        	System.out.println(item.getText());
+        }
+        TimeUnit SECONDS;
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(30, SECONDS).pollingEvery(5, SECONDS).ignoring(NoSuchElementException.class); 
+        WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
+        	public WebElement apply(WebDriver driver) {
+        	return driver.findElement(By.id("foo"));
+        	}
+}

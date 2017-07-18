@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Javarush"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="FileConsoleWriter"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="&lt;span xml:lang=»en» lang=»en»&gt;&lt;b&gt;&lt;span&gt;Turanga Leela&#13;&#10;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span&gt;Super&lt;/span&gt;&lt;span&gt;girl&lt;/span&gt;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Javarush"/>
+</launchConfiguration>

@@ -1,0 +1,10 @@
+
+public class Person {
+		
+	protected String name = "n/a";  //данные класса
+	protected int age = 0;			//данные класса
+	
+	
+	
+	
+}

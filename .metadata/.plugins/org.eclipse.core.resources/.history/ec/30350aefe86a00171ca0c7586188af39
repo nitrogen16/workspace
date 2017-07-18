@@ -1,0 +1,12 @@
+package main;
+
+public class SpaceShip extends BaseObject {
+
+	private double dx;
+
+	public SpaceShip(int x, int y)
+	{
+		super(x, y, 3);
+	}
+
+}

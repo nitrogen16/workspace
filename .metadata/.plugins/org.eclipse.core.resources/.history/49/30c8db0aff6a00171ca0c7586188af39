@@ -1,0 +1,24 @@
+package main;
+
+import strategy.StorageStrategy;
+
+public class Shortener {
+	
+	private Long lastId = 0L;
+	private StorageStrategy storageStrategy;
+	
+	public Shortener(Long lastId, StorageStrategy storageStrategy) {
+		super();
+		this.lastId = lastId;
+		this.storageStrategy = storageStrategy;
+	}
+
+	public Long getId(String string){
+		return null;
+	}
+	
+	public String getString(Long id){
+		return null;
+	}
+
+}

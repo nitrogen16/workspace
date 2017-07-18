@@ -1,0 +1,38 @@
+package main;
+
+public class Canvas {
+	private int width;
+	private int height;
+	private char[][] matrix;
+	
+	public Canvas(int width, int height) {
+		super();
+		this.width = width;
+		this.height = height;
+		this.matrix = new char[this.height][this.width];
+	}
+	
+	public int getWidth() {
+		return width;
+	}
+	public int getHeight() {
+		return height;
+	}
+	public char[][] getMatrix() {
+		return matrix;
+	}
+	
+	public void setPoint(double x, double y, char c){
+		if(x < 0 || y < 0 || y > matrix.length || x > matrix[0].length){
+			
+		}else{
+			x = (int) Math.ceil(x);
+			y = (int) Math.ceil(y);
+			matrix[(int) x][(int) y] = c;
+		}
+	}
+
+	public void drawMatrix(double x, double y, int[][] matrix, char c){
+		
+	}
+}

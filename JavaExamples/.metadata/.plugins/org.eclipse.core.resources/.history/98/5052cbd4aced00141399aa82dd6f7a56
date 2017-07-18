@@ -1,0 +1,14 @@
+
+public class Functions {
+
+		static void muFunction() {
+					System.out.println("Hello! I'm Function");
+								}
+	
+	public static void main(String[] args) {
+	
+			myFunction();
+
+	}
+
+}

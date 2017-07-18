@@ -1,0 +1,14 @@
+
+public class Person {
+		
+	protected String name = "n/a";  //данные класса
+	protected int age = 0;			//данные класса
+	
+	public void setName(String n){
+						this.name = n;
+							}
+	
+	public void setAge(int n){
+		this.age = a;
+			}
+}

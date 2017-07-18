@@ -1,0 +1,12 @@
+package google_search.application;
+
+public class TestFabric {
+	public static Solution createTest(BrowserName type){
+		switch(type){
+		CHROME : return new GoogleSearch().doesWebDriverWork();
+		
+		MOZILLA : return new MozillaSearch().doesWebDriverWork();
+		}
+
+	}
+}

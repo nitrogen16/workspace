@@ -1,0 +1,22 @@
+package main;
+
+import java.util.Set;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static Set<Long> getIds(Shortener shortener, Set<String> strings){
+		
+	}
+	
+	public static Set<String> getStrings(Shortener shortener, Set<Long> keys){
+		
+	}
+	
+	
+
+}

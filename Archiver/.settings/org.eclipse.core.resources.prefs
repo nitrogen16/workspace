@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/command/ExitCommand.java=UTF-8
+encoding//src/command/ZipAddCommand.java=UTF-8
+encoding//src/command/ZipCommand.java=UTF-8
+encoding//src/command/ZipContentCommand.java=UTF-8
+encoding//src/command/ZipCreateCommand.java=UTF-8
+encoding//src/command/ZipExtractCommand.java=UTF-8
+encoding//src/command/ZipRemoveCommand.java=UTF-8
+encoding//src/main/Archiver.java=UTF-8
+encoding//src/main/FileManager.java=UTF-8
+encoding//src/main/FileProperties.java=UTF-8
+encoding//src/main/ZipFileManager.java=UTF-8

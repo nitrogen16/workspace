@@ -1,0 +1,11 @@
+3
+line #1
+line #2
+line #3
+
+cat
+fox
+dog
+cat
+
+and so on and and on and on...

@@ -1,0 +1,10 @@
+package securityProxy.connectors;
+
+import securityProxy.security.SecurityChecker;
+
+public class SecurityProxyConnector {
+	SimpleConnector simpleConnector;
+	SecurityChecker securityChecker;
+	
+	
+}

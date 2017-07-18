@@ -1,0 +1,7 @@
+package main;
+
+import java.util.AbstractSet;
+
+public class AmigoSet extends AbstractSet{
+
+}

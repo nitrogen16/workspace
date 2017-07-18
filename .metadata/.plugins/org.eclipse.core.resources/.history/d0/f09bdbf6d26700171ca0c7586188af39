@@ -1,0 +1,17 @@
+package securityProxy.connectors;
+
+import securityProxy.security.SecurityChecker;
+
+public class SecurityProxyConnector implements Connector{
+	SimpleConnector simpleConnector;
+	SecurityChecker securityChecker;
+	
+	
+	@Override
+	public void connect() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

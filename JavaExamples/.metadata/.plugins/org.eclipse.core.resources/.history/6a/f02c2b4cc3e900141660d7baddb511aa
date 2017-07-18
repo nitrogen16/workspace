@@ -1,0 +1,17 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		String var1="Привет, Мир!";
+		String var2="А Маше нет привета!";
+		byte a=12;
+		int b=12345;
+		int c=a+b;
+		
+		System.out.println(var1 +" "+var2);
+		System.out.println(c);
+
+	}
+
+}

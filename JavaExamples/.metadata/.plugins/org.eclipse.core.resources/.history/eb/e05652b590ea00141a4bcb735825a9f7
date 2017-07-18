@@ -1,0 +1,60 @@
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		//1
+		int a=59;
+		int b=568;
+		
+		if (a>b) {
+				System.out.println("a реально больше b! »т из “–”””””!");
+				}
+			else {
+				System.out.println("a нихрена не больше b! »т из ‘ќќќќЋ—!");
+				}; //можно не ставить фигурные скобки, так как одна строка в условии
+				
+				
+				
+				//2
+				boolean c=true;
+				if (c) {
+						System.out.println("c из “–”””””!");
+						}
+					else {
+						System.out.println("c из ‘ќќќќЋ—!");
+						}; //можно не ставить фигурные скобки, так как одна строка в условии
+						
+
+						
+						//3
+						int f=789;
+						int h=568;
+						
+						if (f>h) {
+									if (f==h){
+									System.out.println("sub“–”””””!");
+											}
+									else {
+									System.out.println("sub‘ќќќќќЋ—!");
+										}
+									}
+							else {
+								System.out.println("h нихрена не больше b! »т из ‘ќќќќЋ—!");
+								}; //можно не ставить фигурные скобки, так как одна строка в условии
+								
+								
+				//4
+				int k=59;
+				int l=568;
+				
+				if (k>l) {
+						System.out.println("k реально больше l! »т из “–”””””!");
+						}
+					else {
+						System.out.println("k нихрена не больше l! »т из ‘ќќќќЋ—!");
+						}; //можно не ставить фигурные скобки, так как одна строка в условии
+
+
+	}
+
+}

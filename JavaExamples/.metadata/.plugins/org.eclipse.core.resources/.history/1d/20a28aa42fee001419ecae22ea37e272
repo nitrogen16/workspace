@@ -1,0 +1,24 @@
+
+public class Functions {
+
+		static void myFunction() {
+					System.out.println("Hello! I'm Function");
+								}
+		
+		static void mFunction(int arg) {
+			System.out.println("My argument = "+arg);
+						}
+		
+		static void Result(int a, int b) {
+			int result=a+b;
+			System.out.println("Сумма параметров равна "+result);
+						}
+	
+	public static void main(String[] args) {
+	
+			myFunction();
+			mFunction(56456);
+			Result(23135, 25015);
+	}
+
+}

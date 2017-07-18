@@ -1,0 +1,17 @@
+package cashingProxy.retrievers;
+
+import cashingProxy.cache.LRUCache;
+import cashingProxy.storage.Storage;
+
+public class CachingProxyRetriever implements Retriever{
+    Storage storage;
+    LRUCache lRUCache;
+    CachingProxyRetriever cachingProxyRetriever;
+    public CachingProxyRetriever(Storage storage) {
+        this.storage = storage;
+    }
+	@Override
+	public Object retrieve(long id) {
+		return storage.get(id);
+	}
+}

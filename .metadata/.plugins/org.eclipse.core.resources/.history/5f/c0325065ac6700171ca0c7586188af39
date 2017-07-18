@@ -1,0 +1,21 @@
+package onlinerSearch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class PageObject {
+	protected WebDriver driver;
+
+	public PageObject(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void clickOnMainPage() {
+		driver.get("http://www.onliner.by");
+	}
+	
+	public void clickOnForumPage() {
+		driver.get("http://forum.onliner.by/");
+	}
+}

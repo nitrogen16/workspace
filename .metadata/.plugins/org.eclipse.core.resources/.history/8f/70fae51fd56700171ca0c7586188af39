@@ -1,0 +1,11 @@
+package decorators;
+
+import shapes.Shape;
+
+public class RedShapeDecorator extends ShapeDecorator{
+
+	public RedShapeDecorator(Shape decoratedShape) {
+		super(decoratedShape);
+	}
+
+}

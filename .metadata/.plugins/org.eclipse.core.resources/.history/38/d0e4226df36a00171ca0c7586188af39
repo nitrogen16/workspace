@@ -1,0 +1,25 @@
+package main;
+
+public class SpaceShip extends BaseObject {
+
+	private double dx = 0;
+
+	public SpaceShip(double x, double y) {
+		super(x, y, 3);
+	}
+
+	/**
+	 * Устанавливаем вектор движения влево
+	 */
+	public void moveLeft() {
+		dx = -1;
+	}
+
+	/**
+	 * Устанавливаем вектор движения вправо
+	 */
+	public void moveRight() {
+		dx = 1;
+	}
+
+}

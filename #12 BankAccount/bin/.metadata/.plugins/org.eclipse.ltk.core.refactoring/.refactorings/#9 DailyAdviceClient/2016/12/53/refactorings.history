@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;DailyAdviceClient.go().s&apos; in &apos;DailyAdviceClient.go()&apos; to field&#x0D;&#x0A;- Original project: &apos;#9 DailyAdviceClient&apos;&#x0D;&#x0A;- Original element: &apos;DailyAdviceClient.go().s&apos;&#x0D;&#x0A;- Field name: &apos;s&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;s&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{DailyAdviceClient.java" name="s" selection="237 33" stamp="1482824136951" static="false" version="1.0" visibility="2"/>
+</session>

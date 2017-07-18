@@ -1,0 +1,21 @@
+package onlinerSearch;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Test;
+
+public class Solution extends FunctionalTest{
+	@Test
+	public void signUp() {
+		driver.get("http://www.onliner.by");
+		OnlinerMainPage onlinerMainPage = new OnlinerMainPage(driver);
+		onlinerMainPage.getElements();
+
+		
+		
+		//driver.get("http://forum.onliner.by/");
+		//OnlinerForumPage onlinerForumPage = new OnlinerForumPage(driver);
+//		assertTrue(receiptPage.isInitialized());
+	//	assertEquals("Thank you", receiptPage.confirmationHeader());
+	}
+}

@@ -1,0 +1,30 @@
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		//1
+		int a=59;
+		int b=568;
+		
+		if (a>b) {
+				System.out.println("a реально больше b! »т из “–”””””!");
+				}
+			else {
+				System.out.println("a нихрена не больше b! »т из ‘ќќќќЋ—!");
+				}; //можно не ставить фигурные скобки, так как одна строка в условии
+				
+				
+				
+				//2
+				boolean a=true;
+				if (a) {
+						System.out.println("a из “–”””””!");
+						}
+					else {
+						System.out.println("a из ‘ќќќќЋ—!");
+						}; //можно не ставить фигурные скобки, так как одна строка в условии
+
+
+	}
+
+}

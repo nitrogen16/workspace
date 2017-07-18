@@ -1,0 +1,11 @@
+import java.net.ServerSocket;
+
+
+public class DailyAdviceServer {
+	
+	String[] adviceList = {"Eat less", "Buy jeans", "Looks good", "Well... It's not appropriate enogh"};
+	
+	public void go(){
+		ServerSocket sock = new ServerSocket(8080);
+	}
+}

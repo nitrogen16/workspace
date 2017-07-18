@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;JavaTextToPDFDemo&apos;&#x0D;&#x0A;- Original project: &apos;JavaTextToPDFDemo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     itext-pdfa-5.4.5.jar&#x0D;&#x0A;     itext-xtra-5.4.5.jar&#x0D;&#x0A;     itextpdf-5.4.5.jar" description="Delete elements" element1="src/com/example/itext-pdfa-5.4.5.jar" element2="src/com/example/itext-xtra-5.4.5.jar" element3="src/com/example/itextpdf-5.4.5.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1493370994373" subPackages="false" version="1.0"/>
+</session>

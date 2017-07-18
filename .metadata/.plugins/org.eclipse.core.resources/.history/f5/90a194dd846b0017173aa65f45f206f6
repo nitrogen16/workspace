@@ -1,0 +1,12 @@
+package strategy;
+
+import java.io.Serializable;
+
+public class Entry implements Serializable{
+	Long key;
+	String value;
+	Entry next;
+	int hash;
+	
+	
+}

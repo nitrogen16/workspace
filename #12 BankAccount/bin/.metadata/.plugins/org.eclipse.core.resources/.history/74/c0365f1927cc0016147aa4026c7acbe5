@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+
+public class DailyAdviceServer {
+	
+	String[] adviceList = {"Eat less", "Buy jeans", "Looks good", "Well... It's not appropriate enogh"};
+	
+	public void go(){
+		try {
+			ServerSocket sock = new ServerSocket(8080);
+			while(true){
+				Socket sock = serverSock.accept();
+				
+					
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

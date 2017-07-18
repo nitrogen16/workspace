@@ -1,0 +1,4 @@
+Сообщение 1
+Сообщение 2
+java.lang.Exception: Сообщение об ошибке
+	at Solution2.main(Solution2.java:15)

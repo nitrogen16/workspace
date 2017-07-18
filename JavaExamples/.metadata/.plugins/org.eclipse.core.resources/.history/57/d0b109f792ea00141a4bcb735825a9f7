@@ -1,0 +1,42 @@
+
+public class Switch {
+
+	public static void main(String[] args) {
+				
+		//1
+		/*int a=3;
+		switch(a) {
+		case 1: 
+			System.out.println("I'm case #1");
+			break;
+		case 2: 
+			System.out.println("I'm case #2");
+			break;		
+		case 3: 
+			System.out.println("I'm case #3");
+			break;	
+		default:
+			System.out.println("I'm a value by default");*/
+		
+		
+		
+		//2
+		int a=3;
+		switch(a) {
+		case 1:
+		case 2:
+		case 3:
+			System.out.println("I'm case #1");
+			break;
+		case 4: 
+			System.out.println("I'm case #4");
+			break;		
+		case 5: 
+			System.out.println("I'm case #5");
+			break;	
+		default:
+			System.out.println("I'm a value by default");
+		} 
+	}
+
+}

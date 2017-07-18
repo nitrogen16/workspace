@@ -1,0 +1,21 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		int array1[]={1,2,3,4,5,6,7,8,9,10};
+		System.out.println("Это пятый элемент одномерного массива - "+array1[5]);
+		
+		int array2[][]={
+						{1,2,3},
+						{3,4,5},
+						{6,7,8},
+						{9,10,10}
+						};
+		System.out.println("Это элемент двухмерного массива в 3-м индексе с индексом 3 - "+array2[3][2]);
+		
+		//int array3[]={1,2,3,4,5,6,7,8,9,10};
+		//System.out.println("Это пятый элемент одномерного массива - "+array1[5]);
+	}
+
+}

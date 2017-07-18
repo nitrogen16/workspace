@@ -1,0 +1,19 @@
+package uncheckedExceptions;
+/* 
+Runtime исключения (unchecked exception)
+*/
+
+public class VeryComplexClass {
+    public void methodThrowsClassCastException() {
+    	Object x = new Integer(0);
+        System.out.println((String)x);
+    }
+
+    public void methodThrowsNullPointerException() {
+    	
+    }
+
+    public static void main(String[] args) {
+    	
+    }
+}

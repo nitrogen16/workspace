@@ -1,0 +1,21 @@
+package checkedExceptions;
+
+/* 
+Проверяемые исключения (checked exception)
+*/
+
+public class VeryComplexClass {
+    public void veryComplexMethod() throws Exception {
+    	try {
+			int rez = 5/0;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+
+    public static void main(String[] args) throws Exception {
+    	VeryComplexClass veryComplexClass = new VeryComplexClass();
+			veryComplexClass.veryComplexMethod();
+    }
+}

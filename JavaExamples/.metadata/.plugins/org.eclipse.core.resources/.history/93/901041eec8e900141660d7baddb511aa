@@ -1,0 +1,37 @@
+import java.util.*;
+
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		int array1[]={1,2,3,4,5,6,7,8,9,10};
+		System.out.println("Это пятый элемент одномерного массива - "+array1[5]);
+		
+		int array2[][]={
+						{1,2,3},
+						{3,4,5},
+						{6,7,8},
+						{9,10,10}
+						};
+		System.out.println("Это элемент двухмерного массива в 3-м индексе с индексом 3 - "+array2[3][2]);
+		
+		String array3[]={"Первый элемент",
+						"Второй элемент",
+						"Трети элемент",
+						"Четвёртый элемент",
+						"Пятый элемент",
+						"Шестой элемент",
+						"Седьмой элемент"};
+		System.out.println("Это пятый элемент строкового массива - "+array3[5]);
+		System.out.println("Это количество элементов строкового массива - "+array3.length);
+		System.out.println("А это количество элементов 1-го массива - "+array1.length);
+		
+		//Создание ассоциативного массива
+		Map <String, String> myMap = new HashMap <String, String>();
+						
+		System.out.println("Это пятый элемент строкового массива - "+array3[5]);
+		
+	}
+
+}

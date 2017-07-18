@@ -1,0 +1,16 @@
+package checkedExceptions;
+
+/* 
+Проверяемые исключения (checked exception)
+*/
+
+public class VeryComplexClass {
+    public void veryComplexMethod() throws Exception {
+        //напишите тут ваш код
+    	int res = 5 / 0;
+    }
+
+    public static void main(String[] args) {
+    	veryComplexMethod();
+    }
+}

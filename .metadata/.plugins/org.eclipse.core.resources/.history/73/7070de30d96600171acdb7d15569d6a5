@@ -1,0 +1,14 @@
+package findClassByDescription;
+
+/* 
+Ð�Ð°Ð¹Ñ‚Ð¸ ÐºÐ»Ð°Ñ�Ñ� Ð¿Ð¾ Ð¾Ð¿Ð¸Ñ�Ð°Ð½Ð¸ÑŽ
+*/
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(getExpectedClass());
+    }
+
+    public static Class getExpectedClass() {
+        return null;
+    }
+}
