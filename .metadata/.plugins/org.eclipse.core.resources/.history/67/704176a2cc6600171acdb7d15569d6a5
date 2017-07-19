@@ -1,9 +1,0 @@
-package redBlackTree;
-
-/* 
-Ð Ð°Ð·Ð±Ð¸Ñ€Ð°ÐµÐ¼Ñ�Ñ� Ð² ÐºÑ€Ð°Ñ�Ð½Ð¾-Ñ‡ÐµÑ€Ð½Ð¾Ð¼ Ð´ÐµÑ€ÐµÐ²Ðµ
-*/
-public class Solution {
-    public static void main(String[] args) {
-    }
-}

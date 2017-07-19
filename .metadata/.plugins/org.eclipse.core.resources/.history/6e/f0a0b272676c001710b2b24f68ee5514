@@ -1,0 +1,5 @@
+package realizeAnnotations;
+
+public @interface Date {
+	//напиши свой код
+}

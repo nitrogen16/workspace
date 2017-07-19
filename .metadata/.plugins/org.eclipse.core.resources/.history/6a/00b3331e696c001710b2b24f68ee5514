@@ -1,0 +1,5 @@
+package tickets;
+
+public @interface Ticket {
+
+}

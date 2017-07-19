@@ -1,0 +1,37 @@
+package annotationPlusReflection;
+
+import java.lang.reflect.Field;
+
+public final class ReflectionAnnotationUtil {
+    public static void check(Object someObject) throws IllegalAccessException {
+        Class<?> testedClass = someObject.getClass();
+        for (Field field : testedClass.getDeclaredFields()) {
+            if (field.isAnnotationPresent(LongPositive.class)) {
+                processLongPositiveAnnotationField(someObject, testedClass, field);
+            }
+        }
+    }
+
+    private static void processLongPositiveAnnotationField(Object someObject, Class<?> testedClass, Field field) throws
+            IllegalAccessException
+    {
+        field.setAccessible(true);
+        Class<?> fieldType = field.getType();
+
+        //assert type is long
+        if (!fieldType.equals(long.class)) {
+            String msg = String.format("ÐŸÐ¾Ð»Ðµ %s Ð² ÐºÐ»Ð°Ñ�Ñ�Ðµ %s Ð¸Ð¼ÐµÐµÑ‚ Ð°Ð½Ð½Ð¾Ñ‚Ð°Ñ†Ð¸ÑŽ LongPositive, Ð½Ð¾ ÐµÐ³Ð¾ Ñ‚Ð¸Ð¿ %s.",
+                    field.getName(), testedClass.getSimpleName(), fieldType.getSimpleName());
+            System.out.println(msg);
+            return;
+        }
+
+        //assert value is positive
+        long value = (long) field.get(someObject);
+        if (value <= 0) {
+            String msg = String.format("ÐŸÐ¾Ð»Ðµ %s Ð² ÐºÐ»Ð°Ñ�Ñ�Ðµ %s Ð¸Ð¼ÐµÐµÑ‚ Ð°Ð½Ð½Ð¾Ñ‚Ð°Ñ†Ð¸ÑŽ LongPositive, Ð½Ð¾ ÐµÐ³Ð¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ.",
+                    field.getName(), testedClass.getSimpleName());
+            System.out.println(msg);
+        }
+    }
+}

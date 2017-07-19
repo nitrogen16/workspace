@@ -1,0 +1,5 @@
+package realizeAnnotations;
+
+public @interface Author {
+    //Ð½Ð°Ð¿Ð¸ÑˆÐ¸ Ñ�Ð²Ð¾Ð¹ ÐºÐ¾Ð´
+}

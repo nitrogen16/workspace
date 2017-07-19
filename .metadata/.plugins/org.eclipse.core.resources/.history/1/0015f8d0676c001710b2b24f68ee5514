@@ -1,0 +1,16 @@
+package realizeAnnotations;
+
+public @interface Revision {
+
+	String comment();
+	//напиши свой код
+
+	Date date();
+
+	int revision();
+
+	Author[] authors();
+
+	String comment();
+	
+}

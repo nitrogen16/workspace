@@ -1,0 +1,8 @@
+package realizeAnnotations;
+
+public @interface Changelog {
+
+	Revision[] value();
+	//напиши свой код
+	
+}

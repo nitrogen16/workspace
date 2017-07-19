@@ -56,16 +56,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="google_search.application"/>
-			<item value="gogleAddress"/>
+			<item value="com.epam.calctest.calcilator"/>
+			<item value="com.epam.calctest.calc"/>
+			<item value="com.epam.calctest.calctes"/>
+			<item value="calc.calcTest"/>
 		</list>
 		<list key="groupId">
-			<item value="google-search"/>
-			<item value="123"/>
+			<item value="com.epam.calctest"/>
+			<item value="calc"/>
 		</list>
 		<list key="artifactId">
-			<item value="application"/>
-			<item value="123"/>
+			<item value="calcilator"/>
+			<item value="calc"/>
+			<item value="calctes"/>
+			<item value="calcTest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

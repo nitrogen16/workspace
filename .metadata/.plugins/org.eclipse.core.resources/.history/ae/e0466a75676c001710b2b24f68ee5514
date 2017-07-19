@@ -1,0 +1,5 @@
+package realizeAnnotations;
+
+public @interface Author {
+	//напиши свой код
+}

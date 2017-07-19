@@ -1,0 +1,28 @@
+package realizeAnnotations;
+
+/* 
+Ð ÐµÐ°Ð»Ð¸Ð·ÑƒÐ¹ Ð°Ð½Ð½Ð¾Ñ‚Ð°Ñ†Ð¸Ð¸
+*/
+
+@Changelog({
+        @Revision(
+                revision = 4089,
+                date = @Date(year = 2011, month = 5, day = 30, hour = 18, minute = 35, second = 18),
+                comment = "Ð�Ð¾Ð²Ñ‹Ð¹ Ñ„Ð°Ð¹Ð» Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½"),
+        @Revision(
+                revision = 6018,
+                date = @Date(year = 2013, month = 1, day = 1, hour = 0, minute = 0, second = 1),
+                authors = {@Author(value = "Ð¡ÐµÑ€ÐµÐ³Ð°", position = Position.MIDDLE)},
+                comment = "Ð¤Ð¸ÐºÑ� Ð±Ð°Ð³Ð¾Ð²"),
+        @Revision(
+                revision = 10135,
+                date = @Date(year = 2014, month = 12, day = 31, hour = 23, minute = 59, second = 59),
+                authors = {@Author(value = "Ð”Ð¸Ð°Ð½Ð°", position = Position.OTHER),
+                        @Author("Ð˜Ð³Ð¾Ñ€ÑŒ"),
+                        @Author(value = "Ð’Ð¸Ñ‚ÐµÐº", position = Position.SENIOR)})
+})
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(Solution.class.getAnnotation(Changelog.class).toString());
+    }
+}

@@ -18,9 +18,9 @@ public class PageObject {
 	@CacheLookup
     private WebElement catalogPage;
 	
-	@FindBy(linkText = "Форум")
-	//@FindBy(linkText = "//a[contains(@href,'forum')]")
-	//@CacheLookup
+	//@FindBy(linkText = "Форум")
+	@FindBy(xpath = "//a[contains(@href,'forum')]")
+	@CacheLookup
     private WebElement forumMenuItem;
     
 	public OnlinerCatalogPage clickOnCatalogPage() {

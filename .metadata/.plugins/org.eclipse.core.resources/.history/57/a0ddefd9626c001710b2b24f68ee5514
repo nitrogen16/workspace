@@ -1,0 +1,5 @@
+package realizeAnnotations;
+
+public @interface Changelog {
+    //Ð½Ð°Ð¿Ð¸ÑˆÐ¸ Ñ�Ð²Ð¾Ð¹ ÐºÐ¾Ð´
+}

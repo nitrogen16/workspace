@@ -1,0 +1,13 @@
+package tickets;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Ticket {
+	enum Priority{
+		LOW,
+		MEDIUM,
+		HIGH
+	}
+}

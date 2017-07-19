@@ -1,0 +1,29 @@
+package annotationPlusReflection;
+
+/* 
+Annotation + Reflection
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IllegalAccessException {
+        JavaRushBankAccount account = new JavaRushBankAccount("Mr.Smith");
+        System.out.println("ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° â„–1:");
+        ReflectionAnnotationUtil.check(account);
+
+        System.out.println("ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° â„–2:");
+        account.setAmount(100);
+        ReflectionAnnotationUtil.check(account);
+
+        System.out.println("ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° â„–3:");
+        ReflectionAnnotationUtil.check(new IncorrectAccount());
+/* ÐžÐ¶Ð¸Ð´Ð°ÐµÐ¼Ñ‹Ð¹ Ð²Ñ‹Ð²Ð¾Ð´:
+
+ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° â„–1:
+ÐŸÐ¾Ð»Ðµ amount Ð² ÐºÐ»Ð°Ñ�Ñ�Ðµ JavaRushBankAccount Ð¸Ð¼ÐµÐµÑ‚ Ð°Ð½Ð½Ð¾Ñ‚Ð°Ñ†Ð¸ÑŽ LongPositive, Ð½Ð¾ ÐµÐ³Ð¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ.
+ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° â„–2:
+ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° â„–3:
+ÐŸÐ¾Ð»Ðµ amountString Ð² ÐºÐ»Ð°Ñ�Ñ�Ðµ IncorrectAccount Ð¸Ð¼ÐµÐµÑ‚ Ð°Ð½Ð½Ð¾Ñ‚Ð°Ñ†Ð¸ÑŽ LongPositive, Ð½Ð¾ ÐµÐ³Ð¾ Ñ‚Ð¸Ð¿ String.
+
+*/
+    }
+}

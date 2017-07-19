@@ -1,0 +1,7 @@
+package realizeAnnotations;
+
+public @interface Author {
+    String value() default "";
+    Position position() default Position.OTHER;
+	
+}

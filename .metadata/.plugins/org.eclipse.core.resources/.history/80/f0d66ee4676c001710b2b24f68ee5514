@@ -1,0 +1,14 @@
+package realizeAnnotations;
+
+public @interface Date {
+
+	int year();
+	//напиши свой код
+
+	int second();
+
+	int month();
+
+	int day();
+	
+}
