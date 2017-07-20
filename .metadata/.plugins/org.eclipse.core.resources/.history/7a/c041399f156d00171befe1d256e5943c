@@ -1,0 +1,13 @@
+package main;
+
+import model.Provider;
+
+public class Controller {
+	
+	private Provider providers;
+	
+	public Controller(Provider providers){
+		
+	}
+	
+}

@@ -1,5 +1,0 @@
-package cashingProxy.retrievers;
-
-public class CachingProxyRetriever {
-
-}

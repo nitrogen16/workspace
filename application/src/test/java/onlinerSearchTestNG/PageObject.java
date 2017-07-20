@@ -5,8 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
-public class PageObject {
+abstract public class PageObject {
 	protected WebDriver driver;
 	
 	public PageObject(WebDriver driver) {
@@ -14,7 +15,7 @@ public class PageObject {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(linkText = "Каталог")
+	@FindBy(xpath = "//a[contains(@href,'catalog')]")
 	@CacheLookup
     private WebElement catalogPage;
 	
@@ -23,6 +24,7 @@ public class PageObject {
 	@CacheLookup
     private WebElement forumMenuItem;
     
+	@Test
 	public OnlinerCatalogPage clickOnCatalogPage() {
 		catalogPage.click();
 		return new OnlinerCatalogPage(driver);

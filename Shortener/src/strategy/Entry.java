@@ -3,6 +3,9 @@ package strategy;
 import java.io.Serializable;
 
 public class Entry implements Serializable{
+	
+	private static final long serialVersionUID = -1824556671426188546L;
+	
 	Long key;
 	String value;
 	Entry next;

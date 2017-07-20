@@ -57,7 +57,7 @@
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeGroups"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterGroups"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
 <fullyQualifiedTypeName name="tickets.Ticket.Priority"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>

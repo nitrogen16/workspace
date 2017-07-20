@@ -1,0 +1,30 @@
+package onlinerSearchTestNG;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.omg.CORBA.TIMEOUT;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class Solution extends FunctionalTest {
+	@Test
+	public void signUp() {
+		OnlinerMainPage onlinerMainPage = new OnlinerMainPage(driver);
+		OnlinerCatalogPage onlinerCatalogPage = onlinerMainPage.open().clickOnCatalogPage();
+		onlinerCatalogPage.getElements();
+
+		OnlinerForumPage onlinerForumPage = onlinerCatalogPage.clickOnForumPage();
+		Assert.assertTrue(onlinerForumPage.getElements() > 0, "Element not found");
+	}
+	
+	@AfterTest
+	public void close(){
+		TimeUnit.SECONDS(5);
+		driver.close();
+	}
+	
+}
