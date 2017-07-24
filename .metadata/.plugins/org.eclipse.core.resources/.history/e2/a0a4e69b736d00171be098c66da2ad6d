@@ -1,0 +1,5 @@
+package com.search.app;
+
+public abstract class PageObject {
+
+}

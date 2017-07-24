@@ -1,0 +1,30 @@
+package com.search.app;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class ForumPage extends PageObject {
+	
+	public ForumPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	private static final String SEARCH = "fast-search__input";
+	@FindBy(className = SEARCH)
+    private WebElement searchField;
+	
+	private static final String FRAME_CLASS = "modal-iframe";
+	@FindBy(className = FRAME_CLASS)
+    private WebElement iFrame;
+	
+	private static final String RESULTS = "search__results";
+	@FindBy(className = RESULTS)
+    private WebElement results;
+	
+	public int getSearchResults(){
+		searchField.sendKeys("life");
+		
+	}
+
+}

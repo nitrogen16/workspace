@@ -1,5 +1,0 @@
-package securityProxy.connectors;
-
-public class SecurityProxyConnector {
-	SimpleConnector simpleConnector;
-}

@@ -1,0 +1,9 @@
+package utils;
+
+public class Screenshoter {
+	private static final String SCREENSHOT_NAME_TPL = "screenshots/scr";
+	
+	public static void takeScreenshot(){
+		
+	}
+}

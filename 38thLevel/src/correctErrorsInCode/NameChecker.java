@@ -12,5 +12,6 @@ public class NameChecker {
         if (length > MAX_NUMBER_OF_CHARACTERS)
             throw new Exception("Слишком длинное имя");
         return length;
+    
     }
 }

@@ -1,0 +1,16 @@
+package com.search.app;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import utils.WebDriverSingleton;
+
+public abstract class PageObject {
+	protected WebDriverSingleton driver;
+
+	public PageObject(WebDriverSingleton driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+}

@@ -1,0 +1,19 @@
+package main;
+
+import java.util.List;
+
+import model.HHStrategy;
+import model.Provider;
+import model.Strategy;
+import vo.Vacancy;
+
+public class Aggregator {
+
+	public static void main(String[] args) {
+        Provider provider = new Provider(new HHStrategy());
+        Controller controller = new Controller(provider);
+        controller.scan();
+
+	}
+
+}

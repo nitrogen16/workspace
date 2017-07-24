@@ -1,0 +1,12 @@
+package utils;
+
+import org.openqa.selenium.WebDriver;
+
+public class Screenshoter {
+	private static final String SCREENSHOT_NAME_TPL = "screenshots/scr";
+	
+	public static void takeScreenshot(){
+		WebDriver driver = WebDriverSingleton.getWebDriverSingleton();
+		
+	}
+}

@@ -31,6 +31,19 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Viachaslau_Amelin\workspace\Affirm"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -56,20 +69,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.epam.calctest.calcilator"/>
-			<item value="com.epam.calctest.calc"/>
-			<item value="com.epam.calctest.calctes"/>
-			<item value="calc.calcTest"/>
 		</list>
 		<list key="groupId">
-			<item value="com.epam.calctest"/>
-			<item value="calc"/>
 		</list>
 		<list key="artifactId">
-			<item value="calcilator"/>
-			<item value="calc"/>
-			<item value="calctes"/>
-			<item value="calcTest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -13,6 +13,7 @@ public class Solution {
     public static class Monkey {
         private String name;
 
+        
         public Monkey(String name) {
             this.name = name;
         }

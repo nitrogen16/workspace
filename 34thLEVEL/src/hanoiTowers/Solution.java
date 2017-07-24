@@ -11,6 +11,7 @@ public class Solution {
     }
 
     public static void moveRing(char a, char b, char c, int count) {
+    	
     	if(count > 1){
     		moveRing(a, c, b, count - 1);
     		System.out.println("from A to C");

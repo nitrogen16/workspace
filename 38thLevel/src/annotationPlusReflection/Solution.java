@@ -25,5 +25,6 @@ public class Solution {
 Поле amountString в классе IncorrectAccount имеет аннотацию LongPositive, но его тип String.
 
 */
+   
     }
 }

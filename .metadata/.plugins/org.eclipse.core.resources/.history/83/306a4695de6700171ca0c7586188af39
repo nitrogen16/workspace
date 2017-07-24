@@ -1,5 +1,0 @@
-package patternMethod;
-
-public abstract class Game {
-	protected abstract prepareForTheGame();
-}

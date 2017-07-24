@@ -1,0 +1,10 @@
+package vo;
+
+public class Vacancy {
+	private String title;
+	private String salary;
+	private String city;
+	private String companyName;
+	private String siteName;
+	private String url;
+}

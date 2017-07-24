@@ -1,0 +1,16 @@
+package com.search.app;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.*;
+public class HomepPage extends PageObject{
+	@FindBy(css = "")
+	public HomepPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	
+	public CatalogPage openCatalogPage(){
+		
+	}
+	
+}

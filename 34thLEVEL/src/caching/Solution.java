@@ -48,7 +48,7 @@ public class Solution {
         }
 
         public SomeValue(SomeKey myKey) {        //use this constructor
-            this.myKey = myKey;
+        	this.myKey = myKey;
         }
 
         private SomeKey getKey() {
@@ -60,6 +60,7 @@ public class Solution {
             return "SomeValue{" +
                     "myKey=" + myKey +
                     '}';
+            
         }
     }
 }

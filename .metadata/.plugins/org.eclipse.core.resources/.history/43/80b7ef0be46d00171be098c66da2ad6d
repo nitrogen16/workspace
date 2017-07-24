@@ -1,0 +1,38 @@
+package com.search.app;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import utils.WebDriverSingleton;
+
+public class Solution {
+	protected static WebDriver driver;
+	
+	@BeforeTest(description = "Start Browser")
+	public static void initializeBrowser(){
+		driver = WebDriverSingleton.getWebDriverSingleton();
+		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\Viachaslau_Amelin\\Downloads\\chromedriver_2_27\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);*/
+	}
+	
+	@Test(description = "First Test")
+	public static void catalogElements(){
+		CatalogPage catalogPage = new HomePage(driver).openHomePage().openCatalogPage();
+		int res = catalogPage.getList().size();
+		Assert.assertTrue(res < 20, "Слишком много пунктов!!! Результатов должно быть не более 20!!!");
+	}
+	
+	@Test(description = "Second Test", priority = 1)
+	public static void forumElementsSearch(){
+		new HomePage(driver).openHomePage().openCatalogPage().openForumPage().getSearchResults();
+	}
+	
+	@AfterTest(description = "Close Browser")
+	public static void closeBrowser(){
+		driver.close();
+	}
+
+}

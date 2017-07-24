@@ -1,0 +1,11 @@
+package com.search.app;
+
+import org.openqa.selenium.WebDriver;
+
+public class ForumPage extends PageObject {
+
+	public ForumPage(WebDriver driver) {
+		super(driver);
+	}
+
+}

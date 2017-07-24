@@ -18,6 +18,7 @@ public class Solution {
 
     public static void main(String args[]) throws InterruptedException {
         helper.startTime();
+        
         List<PhantomReference<Monkey>> list = helper.getFilledList();
 
         //before GC

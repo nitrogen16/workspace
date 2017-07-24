@@ -1,0 +1,11 @@
+package com.search.app;
+
+import org.openqa.selenium.WebDriver;
+
+public class HomepPage extends PageObject{
+
+	public HomepPage(WebDriver driver) {
+		super(driver);
+	}
+	
+}

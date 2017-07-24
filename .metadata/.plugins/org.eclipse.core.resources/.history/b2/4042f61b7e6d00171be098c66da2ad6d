@@ -1,0 +1,21 @@
+package com.search.app;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class ForumPage extends PageObject {
+	
+	public ForumPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	@FindBy(css = "fast-search__input")
+	WebElement searchField;
+	
+	public int getSearchResults(){
+		searchField.sendKeys("life");
+		
+	}
+
+}

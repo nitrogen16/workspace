@@ -1,8 +1,11 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import model.Provider;
+import vo.Vacancy;
 
 public class Controller {
 
@@ -19,6 +22,16 @@ public class Controller {
 	public String toString() {
 		return "Controller{" + "providers=" + Arrays.toString(providers) + '}';
 	}
-	
-	
+
+	public void scan() {
+		try {
+			List<Vacancy> vacancies = new ArrayList<>();
+			for (Provider p : providers) {
+				vacancies.addAll(p.getJavaVacancies("Kiev"));
+			}
+			System.out.print(vacancies.size());
+		} catch (NullPointerException e) {
+		}
+	}
+
 }

@@ -21,7 +21,9 @@ public class Solution {
     }
 
     public Set<Integer> getAllFriendsAndPotentialFriends(int index, int deep) {
+		return null;
         //напишите тут ваш код
+    	
     	
     }
 
