@@ -1,7 +1,0 @@
-package strategy;
-
-import java.io.Serializable;
-
-public class Entry implements Serializable{
-	
-}

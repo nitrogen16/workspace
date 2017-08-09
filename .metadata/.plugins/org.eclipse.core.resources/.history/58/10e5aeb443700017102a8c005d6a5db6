@@ -1,7 +1,0 @@
-package model;
-
-public class HHStrategy implements Strategy {
-	
-	private final String URL_FORMAT = String.format("http://hh.ua/search/vacancy?text=java+Kiev&page=3", String, int);
-	
-}

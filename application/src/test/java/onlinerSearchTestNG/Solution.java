@@ -21,7 +21,7 @@ public class Solution extends FunctionalTest {
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 	}
 	
 	@Test

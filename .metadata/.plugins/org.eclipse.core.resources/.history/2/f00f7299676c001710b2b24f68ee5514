@@ -1,6 +1,0 @@
-package realizeAnnotations;
-
-public @interface Changelog {
-	//напиши свой код
-	
-}

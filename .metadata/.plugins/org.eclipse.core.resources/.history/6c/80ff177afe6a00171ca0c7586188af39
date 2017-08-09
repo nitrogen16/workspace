@@ -1,6 +1,0 @@
-package main;
-
-public class Snippet {
-	String getValue(Long key)
-}
-

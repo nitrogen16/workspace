@@ -1,5 +1,0 @@
-package correctErrorsInCode;
-
-public class NameIsNullException {
-	System.out.println("Ошибка: Имя не задано");
-}

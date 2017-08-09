@@ -1,5 +1,0 @@
-package realizeAnnotations;
-
-public @interface Revision {
-	//напиши свой код
-}

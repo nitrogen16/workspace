@@ -1,5 +1,0 @@
-package realizeAnnotations;
-
-public @interface Date {
-    //Ð½Ð°Ð¿Ð¸ÑˆÐ¸ Ñ�Ð²Ð¾Ð¹ ÐºÐ¾Ð´
-}

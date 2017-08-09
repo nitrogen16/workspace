@@ -1,7 +1,0 @@
-package main;
-
-public class ExceptionHandler {
-	public static log(Exception e){
-		
-	}
-}

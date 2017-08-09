@@ -1,5 +1,0 @@
-package model;
-
-public class HHStrategy implements Strategy {
-	private final String URL_FORMAT = ;
-}

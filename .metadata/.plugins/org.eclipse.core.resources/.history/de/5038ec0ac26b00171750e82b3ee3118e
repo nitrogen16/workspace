@@ -1,7 +1,0 @@
-package factoryExceptions;
-
-public class FactoryException {
-	public static getFactory(){
-		
-	}
-}
