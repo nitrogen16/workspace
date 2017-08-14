@@ -39,6 +39,4 @@ public class Connection implements Closeable{
 		out.close();
 		socket.close();
 	}
-	
-
 }

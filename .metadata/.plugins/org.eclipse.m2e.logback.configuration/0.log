@@ -7707,3 +7707,25 @@ org.eclipse.core.runtime.CoreException: Launch configuration Solution references
 2017-08-03 17:10:47,214 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-08-03 17:10:47,214 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Viachaslau_Amelin\workspace\tests\src\test\resources
 2017-08-08 06:58:47,758 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-09 21:12:22,337 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-09 22:43:28,734 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar
+2017-08-09 22:43:29,377 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar
+2017-08-09 22:43:32,925 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://10.128.130.12:8082/artifactory/libs-release/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar
+2017-08-09 22:43:36,162 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://10.128.130.12:8082/artifactory/libs-release/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar
+2017-08-09 22:43:36,348 [Worker-31] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.5.3
+2017-08-09 23:12:59,010 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar
+2017-08-09 23:12:59,654 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar
+2017-08-09 23:13:00,273 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://10.128.130.12:8082/artifactory/libs-release/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar
+2017-08-09 23:13:02,421 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://10.128.130.12:8082/artifactory/libs-release/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar
+2017-08-09 23:13:02,528 [Worker-33] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.6
+2017-08-10 21:56:22,619 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-10 21:56:40,209 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-10 21:56:40,210 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Viachaslau_Amelin\workspace\app\src\main\resources
+2017-08-10 21:56:40,232 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-10 21:56:40,232 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Viachaslau_Amelin\workspace\app\src\test\resources
+2017-08-10 21:56:43,793 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-10 21:56:43,794 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Viachaslau_Amelin\workspace\application\src\main\resources
+2017-08-10 21:56:43,795 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-10 21:56:43,795 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Viachaslau_Amelin\workspace\application\src\test\resources
+2017-08-14 10:02:52,576 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-14 15:40:33,999 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

@@ -1,7 +1,16 @@
 eclipse.preferences.version=1
+encoding//src/againPostNotGet/Solution.java=UTF-8
 encoding//src/buonCompleanno/Solution.java=UTF-8
 encoding//src/downloadFile/Solution.java=UTF-8
+encoding//src/errorsCode/Solution.java=UTF-8
+encoding//src/getThroughSocket/Solution.java=UTF-8
 encoding//src/java8DateTimeAPI/Solution.java=UTF-8
+encoding//src/postNotGet/Solution.java=UTF-8
 encoding//src/sendEmail/Solution.java=UTF-8
+encoding//src/sendEmailWithFile/Solution.java=UTF-8
+encoding//src/socketServerAndClient/Client.java=UTF-8
+encoding//src/socketServerAndClient/Connection.java=UTF-8
+encoding//src/socketServerAndClient/Server.java=UTF-8
+encoding//src/urlInternals/Solution.java=UTF-8
 encoding//src/usefulDateTimeAPIMethods/Solution.java=UTF-8
 encoding//src/workWithDate/Solution.java=UTF-8
