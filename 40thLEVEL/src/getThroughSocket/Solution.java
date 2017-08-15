@@ -27,6 +27,7 @@ public class Solution {
 			System.out.println(url.getFile());
 			System.out.println("//////////////////////////////////////////////////////");
 
+			@SuppressWarnings("resource")
 			Socket socket = new Socket(host, port);
 
 			// получаем OutputStream, чтобы писать в него данные запроса
