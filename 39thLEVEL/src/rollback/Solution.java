@@ -15,7 +15,7 @@ public class Solution {
         }
 
         System.out.println("printing all versions ");
-        for (Map.Entry entry : software.getVersionHistoryMap().entrySet()) {
+        for (@SuppressWarnings("rawtypes") Map.Entry entry : software.getVersionHistoryMap().entrySet()) {
             System.out.println(entry.getKey() + " :: " + entry.getValue());
         }
         System.out.println("current version is " + software.getCurrentVersion());
@@ -24,7 +24,7 @@ public class Solution {
         software.rollback(n);
 
         System.out.println("\nprinting all versions ");
-        for (Map.Entry entry : software.getVersionHistoryMap().entrySet()) {
+        for (@SuppressWarnings("rawtypes") Map.Entry entry : software.getVersionHistoryMap().entrySet()) {
             System.out.println(entry.getKey() + " :: " + entry.getValue());
         }
         System.out.println("current version is " + software.getCurrentVersion());
