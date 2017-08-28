@@ -27,7 +27,7 @@ public class SpaceShip extends BaseObject {
 	 */
 	@Override
 	public void draw(Canvas canvas) {
-
+		
 	}
 
 	/**
@@ -35,19 +35,16 @@ public class SpaceShip extends BaseObject {
 	 */
 	@Override
 	public void move() {
-		x = x + dx;
-
-		checkBorders(radius, Space.game.getWidth() - radius + 1, 1, Space.game.getHeight() + 1);
+	    x = x + dx;
+	    checkBorders(radius, Space.game.getWidth() - radius + 1, 1, Space.game.getHeight() + 1);
 	}
 
 	/**
 	 * Стреляем. Создаем две ракеты: слева и справа от корабля.
 	 */
-	public void fire() {
-		Rocket rocket1 = new Rocket(x-2,y);
-		Rocket rocket2 = new Rocket(x+2,y);
-		Space.game.getRockets().add(rocket1);
-		Space.game.getRockets().add(rocket2);
+	public void fire(){
+	    Space.game.getRockets().add(new Rocket(x - 2, y));
+	    Space.game.getRockets().add(new Rocket(x + 2, y));
 	}
 
 }
