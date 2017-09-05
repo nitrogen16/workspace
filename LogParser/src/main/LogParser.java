@@ -8,11 +8,16 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 import query.IPQuery;
+import query.UserQuery;
 
-public class LogParser implements IPQuery {
+public class LogParser implements IPQuery, UserQuery {
 	private Path logDir;
 	private List<LogObjects> logList;
 
@@ -40,7 +45,7 @@ public class LogParser implements IPQuery {
 				e.printStackTrace();
 			}
 		}
-		SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy hh:mm:ss");
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
 		ArrayList<LogObjects> listLogObject = new ArrayList<>();
 		for (String line : list) {
 			String[] logElement = line.split("\t");
@@ -154,5 +159,74 @@ public class LogParser implements IPQuery {
 			this.event = event;
 			this.status = status;
 		}
+	}
+
+	@Override
+	public Set<String> getAllUsers() {
+		Set<String> allUsers = new HashSet<>();
+		for(LogObjects item : getLogObjectsList()) {
+			//allUsers.add(item);
+		}
+		return allUsers;
+	}
+
+	@Override
+	public int getNumberOfUsers(Date after, Date before) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getNumberOfUserEvents(String user, Date after, Date before) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Set<String> getUsersForIP(String ip, Date after, Date before) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<String> getLoggedUsers(Date after, Date before) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<String> getDownloadedPluginUsers(Date after, Date before) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<String> getWroteMessageUsers(Date after, Date before) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<String> getSolvedTaskUsers(Date after, Date before) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<String> getSolvedTaskUsers(Date after, Date before, int task) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<String> getDoneTaskUsers(Date after, Date before) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<String> getDoneTaskUsers(Date after, Date before, int task) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
